@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayantik</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="icon" href="img1.png">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="logo">AD</a>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    
+    <div class="bx bx-moon" id="darkMode-icon"></div>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+  </header>
+
+  <!-- HOME SECTION DESIGN -->
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, I am</h3>
+      <h1>Ayantik Das</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+        beatae magni optio voluptatum nisi reprehenderit cumque repudiandae
+        eius.
+      </p>
+
+      <div class="social-media">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+      </div>
+
+      <a href="Resume.pdf" class="btn">Click here for CV</a>
+    </div>
+
+    <div class="profession-container">
+      <div class="profession-box">
+        <div class="profession" style="--i: 0">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Designer</h3>
+        </div>
+        <div class="profession" style="--i: 1">
+          <i class="bx bx-palette"></i>
+          <h3>UI/UX Designer</h3>
+        </div>
+        <div class="profession" style="--i: 2">
+          <i class="bx bx-image"></i>
+          <h3>Graphic Designer</h3>
+        </div>
+        <div class="profession" style="--i: 3">
+          <i class="bx bxs-videos"></i>
+          <h3>video Editor</h3>
+        </div>
+
+        <div class="circle"></div>
+      </div>
+
+      <div class="overlay"></div>
+    </div>
+
+    <div class="home-img">
+      <img src="img4.png" />
+    </div>
+  </section>
+
+  <!-- ABOUT PAGE STYLING -->
+
+  <section class="about" id="about">
+      <div class="container">
+          <div class="col-1">
+            <img src="img2.png">
+          </div>
+
+          <div class="col-2">
+            <h1>About Me</h1>
+            <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+              Itaque, officiis.</p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+  
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                    <li><span>Front-end Web Development</span><br>Web-App Designing</li>
+                    <li><span>Video Editor</span><br>Editing to stylish catchy videos</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2022 - Current</span><br>UI/Ux Design Training at ET Institute</li>
+                    <li><span>2019-2022</span><br>Team-Lead at StarApp LLC.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2022 - Current</span><br>B.Tech at Institute of Engineering and Management on Electrical and Electronics Engineering <br> 1st Year :- 8.73 CGPA (8.49 CGPA & 8.98 CGPA) </li>
+                    <li><span>2020 - 2022</span><br>Higher Secondary from DAV Model School, Durgapur <br>73% marks secured in CBSE class-XII</li>
+                    <li><span>2009 - 2020</span><br>Secondary from St.Xavier's School, Durgapur <br>90% marks secured in ICSE class-X</li>
+                </ul>
+            </div>
+          </div>
+      </div>
+  </section>
+
+
+  <!-- SERVICES PAGE STRUCTURE -->
+
+  <section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Designing</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa modi
+            dolorum commodi, accusantium minima similique architecto sapiente
+            hic voluptatibus, consequatur quas voluptas.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-palette"></i>
+          <h3>UI/UX Designing</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa modi
+            dolorum commodi, accusantium minima similique architecto sapiente
+            hic voluptatibus, consequatur quas voluptas.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxs-videos"></i>
+          <h3>Video Editing</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa modi
+            dolorum commodi, accusantium minima similique architecto sapiente
+            hic voluptatibus, consequatur quas voluptas.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION DESIGN -->
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="img12.jpg" />
+        <div class="portfolio-layer">
+          <h4>UI/UX Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, exercitationem rerum.
+          </p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="img8.svg" />
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, exercitationem rerum.
+          </p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="img8.svg" />
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, exercitationem rerum.
+          </p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="img8.svg" />
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, exercitationem rerum.
+          </p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="img8.svg" />
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, exercitationem rerum.
+          </p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="img8.svg" />
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, exercitationem rerum.
+          </p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT PAGE STYLING -->
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email Address" />
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number" />
+        <input type="text" placeholder="Subject" />
+      </div>
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Your Message"
+      ></textarea>
+      <a href="mailto:dasanusmit2007@gmail.com">
+        <input type=" submit" value="Send Message" class="btn" />
+      </a>
+    </form>
+  </section>
+
+  <!-- FOOTER DESIGN -->
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Ayantik Das | All Rights Reserved</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
